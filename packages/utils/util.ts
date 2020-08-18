@@ -1,5 +1,8 @@
 import isServer from './isServer'
-import { isObject, castArray, isEmpty, isEqual, capitalize } from 'lodash-es'
+import { isObject, capitalize } from '@vue/shared'
+import isEmpty from 'lodash/isEmpty'
+import castArray from 'lodash/castArray'
+import isEqual from 'lodash/isEqual'
 
 const { hasOwnProperty } = Object.prototype
 
